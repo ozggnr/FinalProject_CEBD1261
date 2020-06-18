@@ -48,6 +48,6 @@ We classify Games with respect to their Year, labeled as OLD if it is released b
 
 6. Correlation of Features 
 
-![](https://github.com/ozggnr/FinalProject_CEBD1261/blob/master/Heatmap.png)
+![](https://github.com/ozggnr/FinalProject_CEBD1261/blob/master/heatmap.png)
 
 Sales have high correlation among each other and with global sales as expected. Among them, NA and EU sales have very high correlation with global sales such as 0.94 and 0.9 respectively. This verifies our initial observation in Figure 2 about the dominancy of NA and Europe in the market. NA and EU sales almost determine the global sale. However, JP has significantly less correlation with all NA, EU and Global sales. This indicates and verifies again our previous observation that JP market favours different type of games like Role Playing - Pokemon compared to others. On the other hand, Platform, Genre and Publisher show no correlation between each other and sales. Having no particular pattern between these features and sales make sense because there are many outliers having enormous sale values like Wii Sports, Tetris, Super Mario, etc. with irregular Year pattern. One can even guess next hit will belong to Nintendo due to the fact that 63% of top 100 games belongs to it, but nevertheless average games seem drops this correlation.
