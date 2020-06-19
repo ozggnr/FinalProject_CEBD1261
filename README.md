@@ -13,7 +13,7 @@ In this project, we will analyse the data and examine the correlation of feature
 * Global_Sales - Total worldwide sales (in millions).
 
 ### Methods
-To analyse the dataset first read this data by using Scala. The video game sale dataset ... "N/A" values in Year column and ... "N/A" values in the Publisher column but since Scala sees that values as a string we first change this string values to null values and then drop this values. Now we can check the correlation between different features by using SQL and to see the heatmap for the correlation of all features we will Python with the library Pandas and Seaborn. Before to do that we make preprocessing by transforming string values into categorical with Label Encoding and drop some unneccessary columns like Rank and Name.
+To analyse the dataset first read this data by using Scala. The video game sale dataset 271 "N/A" values in Year column and 58 "N/A" values in the Publisher column but since Scala sees that values as a string we first change this string values to null values and then drop this values. Now we can check the correlation between different features by using SQL and to see the heatmap for the correlation of all features we will Python with the library Pandas and Seaborn. Before to do that we make preprocessing by transforming string values into categorical with Label Encoding and drop some unneccessary columns like Rank and Name.
 
 ### Data Visualization
 1. Global Sales vs Year grouping in Genre
